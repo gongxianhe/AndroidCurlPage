@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc88dd">
+
+
+    <com.gxh.curlpagetest.views.AlbumView
+        android:id="@+id/album_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom">
+
+        <com.gxh.curlpagetest.views.AlbumProgressBar
+            android:id="@+id/album_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"></com.gxh.curlpagetest.views.AlbumProgressBar>
+
+    </RelativeLayout>
+
+</FrameLayout>
